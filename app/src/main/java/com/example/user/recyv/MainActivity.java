@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         rv.findViewById(R.id.rvid);
         rv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         rv.setAdapter(new ca());
+        //hello
 
     }
     public class ca extends RecyclerView.Adapter
